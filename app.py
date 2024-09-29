@@ -92,9 +92,7 @@ def contact_page():
     st.write("""
     We'd love to hear from you! Feel free to reach out to us via the following channels:
     
-    - **Email:** contact@triprush.com
-    - **Phone:** +123 456 7890
-    - **Office Address:** 123 Traveler Street, Wanderlust City, World
+    - **Email:** nitishdas199@gmail.com
     
     Follow us on social media for travel inspiration and updates!
     """)
