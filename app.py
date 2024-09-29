@@ -65,11 +65,11 @@ def about_page():
     """)
 
     team_members = [
-        {"name": "Nitish Kumar", "title": "Travel Expert", "linkedin": "https://www.linkedin.com/in/nitishdas199/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/nick.jpeg"},
-        {"name": "Anjana Krishna", "title": "Itinerary Specialist", "linkedin": "https://www.linkedin.com/in/anjana-krishnakumar99/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/anjana.jpeg"},
-        {"name": "Dheeraj Bhureshwar", "title": "Adventure Consultant", "linkedin": "https://www.linkedin.com/in/dheerajbhurewar/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/dheeraj.jpeg"},
-        {"name": "Vanshika", "title": "Budget Planner", "linkedin": "https://www.linkedin.com/in/vanshika", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"},
-        {"name": "Akhil", "title": "Technology Head", "linkedin": "https://www.linkedin.com/in/akhil", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"}
+        {"name": "Nitish Kumar", "title": "Biomedical Engineer, Developer", "linkedin": "https://www.linkedin.com/in/nitishdas199/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/nick.jpeg"},
+        {"name": "Anjana Krishna", "title": "Data Scientiest", "linkedin": "https://www.linkedin.com/in/anjana-krishnakumar99/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/anjana.jpeg"},
+        {"name": "Dheeraj Bhureshwar", "title": "Robotics Engineer", "linkedin": "https://www.linkedin.com/in/dheerajbhurewar/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/dheeraj.jpeg"},
+        {"name": "Vanshika", "title": "Engineer", "linkedin": "https://www.linkedin.com/in/vanshika", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"},
+        {"name": "Akhil", "title": "IT Engineer", "linkedin": "https://www.linkedin.com/in/akhil", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"}
     ]
 
     for member in team_members:
