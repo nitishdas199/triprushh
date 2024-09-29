@@ -60,14 +60,25 @@ def about_page():
     st.title("About Us")
     st.write("""
     Welcome to TripRush! We are a team of passionate travelers dedicated to helping you plan the perfect trip.
-    
+
     Our team:
-    - **Nitish Kumar** - Biomedical Engineer, Developer
-    - **Anjana Krishna** - Data Scientiest
-    - **Dheeraj Bhureshwar** - Robotics specialist
-    - **Vanshita** - Engineer
-    - **Akhil** - IT Engineer
-    
+    """)
+
+    team_members = [
+        {"name": "Nitish Kumar", "title": "Travel Expert", "linkedin": "https://www.linkedin.com/in/nitishdas199/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/nick.jpeg"},
+        {"name": "Anjana Krishna", "title": "Itinerary Specialist", "linkedin": "https://www.linkedin.com/in/anjana-krishnakumar99/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/anjana.jpeg"},
+        {"name": "Dheeraj Bhureshwar", "title": "Adventure Consultant", "linkedin": "https://www.linkedin.com/in/dheerajbhurewar/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/dheeraj.jpeg"},
+        {"name": "Vanshika", "title": "Budget Planner", "linkedin": "https://www.linkedin.com/in/vanshika", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"},
+        {"name": "Akhil", "title": "Technology Head", "linkedin": "https://www.linkedin.com/in/akhil", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"}
+    ]
+
+    for member in team_members:
+        st.write(f"""
+        - ** <a href="{member['linkedin']}" target="_blank"><img src="{member['img']}" alt="LinkedIn" style="width:40px; height:40px;"></a>  {member['name']}**    - {member['title']}  
+          
+        """, unsafe_allow_html=True)
+
+    st.write("""
     Guided by **Harri Prasad**, we aim to provide personalized travel recommendations to make your journey unforgettable.
     """)
 
