@@ -62,11 +62,11 @@ def about_page():
     Welcome to TripRush! We are a team of passionate travelers dedicated to helping you plan the perfect trip.
     
     Our team:
-    - **Nitish Kumar** - Travel Expert
-    - **Anjana Krishna** - Itinerary Specialist
-    - **Dheeraj Bhureshwar** - Adventure Consultant
-    - **Vanshika** - Budget Planner
-    - **Akhil** - Technology Head
+    - **Nitish Kumar** - Biomedical Engineer, Developer
+    - **Anjana Krishna** - Data Scientiest
+    - **Dheeraj Bhureshwar** - Robotics specialist
+    - **Vanshita** - Engineer
+    - **Akhil** - IT Engineer
     
     Guided by **Harri Prasad**, we aim to provide personalized travel recommendations to make your journey unforgettable.
     """)
