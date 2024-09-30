@@ -74,7 +74,7 @@ def about_page():
 
     for member in team_members:
         st.write(f"""
-        - ** <a href="{member['linkedin']}" target="_blank"><img src="{member['img']}" alt="LinkedIn" style="width:40px; height:40px;"></a>  {member['name']}**    - {member['title']}  
+        -  <a href="{member['linkedin']}" target="_blank"><img src="{member['img']}" alt="LinkedIn" style="width:40px; height:40px;"></a>  {member['name']}    - {member['title']}  
           
         """, unsafe_allow_html=True)
 
