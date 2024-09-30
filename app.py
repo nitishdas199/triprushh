@@ -68,7 +68,7 @@ def about_page():
         {"name": "Nitish Kumar", "title": "Biomedical Engineer, Developer", "linkedin": "https://www.linkedin.com/in/nitishdas199/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/nick.jpeg"},
         {"name": "Anjana Krishna", "title": "Data Scientiest", "linkedin": "https://www.linkedin.com/in/anjana-krishnakumar99/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/anjana.jpeg"},
         {"name": "Dheeraj Bhureshwar", "title": "Robotics Engineer", "linkedin": "https://www.linkedin.com/in/dheerajbhurewar/", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/dheeraj.jpeg"},
-        {"name": "Vanshika", "title": "Engineer", "linkedin": "https://www.linkedin.com/in/vanshika", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"},
+        {"name": "Vanshita", "title": "IT Engineer", "linkedin": "https://www.linkedin.com/in/vanshitarawat", "img": "https://raw.githubusercontent.com/nitishdas199/triprushh/refs/heads/main/1725380768795.jpeg"},
         {"name": "Akhil", "title": "IT Engineer", "linkedin": "https://www.linkedin.com/in/akhil", "img": "https://raw.githubusercontent.com/username/repo/main/linkedin.png"}
     ]
 
