@@ -2,7 +2,7 @@ import os
 import google.generativeai as genai
 
 # Configure the Google Generative AI SDK (assuming you have it set up)
-genai.configure(api_key="AIzaSyBMl9Kbcu-5Rr905dxZz0PjG-BD9yyXGgc")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyAy3Y8Fm78gQIg35HrhrrbKWaX-i4s8cFw")  # Replace with your actual API key
 
 # Create the model
 generation_config = {
@@ -57,4 +57,12 @@ def generate_itinerary(departure_location, location, people_count, travel_days, 
     response = chat_session.send_message(prompt)
     return response.text
 
+# curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY" \
+# -H 'Content-Type: application/json' \
+# -X POST \
+# -d '{
+#   "contents": [{
+#     "parts":[{"text": "Explain how AI works"}]
+#     }]
+#    }'
 
